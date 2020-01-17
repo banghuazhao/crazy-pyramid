@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Crazy Pyramid
+
+  Created by Banghua Zhao on 1/17/20.
+  Copyright © 2020 Banghua Zhao. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "瘋狂金字塔";
+"NSUserTrackingUsageDescription" = "該標識符將用於向您投放個性化廣告。";

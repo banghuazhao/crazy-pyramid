@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C6180AF33C5D526A84F03D /* Pods_Crazy_Pyramid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54328766F2519FB6C3506141 /* Pods_Crazy_Pyramid.framework */; };
+		9922936623D2F6D90041EAF0 /* StoreReviewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922936523D2F6D90041EAF0 /* StoreReviewHelper.swift */; };
+		9964CBCA260CD0EE00228C22 /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964CBC9260CD0EE00228C22 /* Ads.swift */; };
+		998D56D723E95D2A00BA418A /* 按键.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 998D56D623E95D2A00BA418A /* 按键.mp3 */; };
+		998D56DA23E9851A00BA418A /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998D56D923E9851A00BA418A /* Level.swift */; };
+		99CC562423DAA67D00079D1D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE1A0523D14E3F00EAE994 /* Constants.swift */; };
+		99CE19B723CF416400EAE994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE19B623CF416400EAE994 /* AppDelegate.swift */; };
+		99CE19BD23CF416400EAE994 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE19BC23CF416400EAE994 /* GameScene.swift */; };
+		99CE19BF23CF416400EAE994 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE19BE23CF416400EAE994 /* GameViewController.swift */; };
+		99CE19C223CF416400EAE994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19C023CF416400EAE994 /* Main.storyboard */; };
+		99CE19C423CF416600EAE994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19C323CF416600EAE994 /* Assets.xcassets */; };
+		99CE19C723CF416600EAE994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19C523CF416600EAE994 /* LaunchScreen.storyboard */; };
+		99CE19CF23CF42E600EAE994 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE19CE23CF42E600EAE994 /* MainMenuScene.swift */; };
+		99CE19E023CF48FB00EAE994 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE19DF23CF48FB00EAE994 /* Music.swift */; };
+		99CE19E223CF563F00EAE994 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE19E123CF563F00EAE994 /* Math.swift */; };
+		99CE19EE23D045CF00EAE994 /* 碰到木乃伊.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19ED23D045CF00EAE994 /* 碰到木乃伊.mp3 */; };
+		99CE19F023D04C0000EAE994 /* 吃金币.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19EF23D04C0000EAE994 /* 吃金币.mp3 */; };
+		99CE19F223D0513200EAE994 /* 背景1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19F123D0513200EAE994 /* 背景1.mp3 */; };
+		99CE19F723D08DDF00EAE994 /* 选择界面.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19F323D08DDF00EAE994 /* 选择界面.mp3 */; };
+		99CE19F923D08DDF00EAE994 /* 胜利.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19F523D08DDF00EAE994 /* 胜利.mp3 */; };
+		99CE19FA23D08DDF00EAE994 /* 失败.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19F623D08DDF00EAE994 /* 失败.mp3 */; };
+		99CE19FC23D08F6D00EAE994 /* 背景2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99CE19FB23D08F6D00EAE994 /* 背景2.mp3 */; };
+		99CE19FE23D0A8F500EAE994 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE19FD23D0A8F500EAE994 /* GameOverScene.swift */; };
+		99CE1A0023D0B55200EAE994 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE19FF23D0B55200EAE994 /* Color+Extension.swift */; };
+		99CE1A0923D1A2F100EAE994 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99CE1A0B23D1A2F100EAE994 /* Localizable.strings */; };
+		99CE1A0F23D1ED7800EAE994 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99CE1A1123D1ED7800EAE994 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D3587E69582CFB64925377A /* Pods-Crazy Pyramid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crazy Pyramid.release.xcconfig"; path = "Target Support Files/Pods-Crazy Pyramid/Pods-Crazy Pyramid.release.xcconfig"; sourceTree = "<group>"; };
+		54328766F2519FB6C3506141 /* Pods_Crazy_Pyramid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crazy_Pyramid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9922936523D2F6D90041EAF0 /* StoreReviewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreReviewHelper.swift; sourceTree = "<group>"; };
+		9964CBC9260CD0EE00228C22 /* Ads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
+		9964CBCC260CD16000228C22 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		996FDC00248C785F0053BEFD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		998D56D623E95D2A00BA418A /* 按键.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "按键.mp3"; sourceTree = "<group>"; };
+		998D56D923E9851A00BA418A /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		99CE19B323CF416400EAE994 /* Crazy Pyramid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crazy Pyramid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CE19B623CF416400EAE994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99CE19BC23CF416400EAE994 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		99CE19BE23CF416400EAE994 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		99CE19C123CF416400EAE994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99CE19C323CF416600EAE994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99CE19C623CF416600EAE994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99CE19C823CF416600EAE994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99CE19CE23CF42E600EAE994 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		99CE19DF23CF48FB00EAE994 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		99CE19E123CF563F00EAE994 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		99CE19ED23D045CF00EAE994 /* 碰到木乃伊.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "碰到木乃伊.mp3"; sourceTree = "<group>"; };
+		99CE19EF23D04C0000EAE994 /* 吃金币.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "吃金币.mp3"; sourceTree = "<group>"; };
+		99CE19F123D0513200EAE994 /* 背景1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "背景1.mp3"; sourceTree = "<group>"; };
+		99CE19F323D08DDF00EAE994 /* 选择界面.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "选择界面.mp3"; sourceTree = "<group>"; };
+		99CE19F523D08DDF00EAE994 /* 胜利.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "胜利.mp3"; sourceTree = "<group>"; };
+		99CE19F623D08DDF00EAE994 /* 失败.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "失败.mp3"; sourceTree = "<group>"; };
+		99CE19FB23D08F6D00EAE994 /* 背景2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "背景2.mp3"; sourceTree = "<group>"; };
+		99CE19FD23D0A8F500EAE994 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		99CE19FF23D0B55200EAE994 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		99CE1A0523D14E3F00EAE994 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		99CE1A0A23D1A2F100EAE994 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		99CE1A0C23D1A30800EAE994 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		99CE1A1023D1ED7800EAE994 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99CE1A1223D1ED7900EAE994 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D7949C88402439AFE6270CE6 /* Pods-Crazy Pyramid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crazy Pyramid.debug.xcconfig"; path = "Target Support Files/Pods-Crazy Pyramid/Pods-Crazy Pyramid.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		999237022E32F49F00AE3AC9 /* Config */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Config; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99CE19B023CF416400EAE994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C6180AF33C5D526A84F03D /* Pods_Crazy_Pyramid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B125354B8CF19FEC7810CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7949C88402439AFE6270CE6 /* Pods-Crazy Pyramid.debug.xcconfig */,
+				2D3587E69582CFB64925377A /* Pods-Crazy Pyramid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		998D56D823E9850E00BA418A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				998D56D923E9851A00BA418A /* Level.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99CE19AA23CF416400EAE994 = {
+			isa = PBXGroup;
+			children = (
+				99CE19B523CF416400EAE994 /* Crazy Pyramid */,
+				99CE19B423CF416400EAE994 /* Products */,
+				57B125354B8CF19FEC7810CC /* Pods */,
+				F9FFC8CF37C050930FA20BE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99CE19B423CF416400EAE994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99CE19B323CF416400EAE994 /* Crazy Pyramid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99CE19B523CF416400EAE994 /* Crazy Pyramid */ = {
+			isa = PBXGroup;
+			children = (
+				999237022E32F49F00AE3AC9 /* Config */,
+				99CE19B623CF416400EAE994 /* AppDelegate.swift */,
+				99CE19DD23CF48AB00EAE994 /* Controller */,
+				998D56D823E9850E00BA418A /* Model */,
+				99CE19DC23CF489E00EAE994 /* Scene */,
+				99CE19DE23CF48C200EAE994 /* Tools */,
+				99CE19DB23CF484500EAE994 /* Supporting */,
+			);
+			path = "Crazy Pyramid";
+			sourceTree = "<group>";
+		};
+		99CE19D023CF484000EAE994 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				998D56D623E95D2A00BA418A /* 按键.mp3 */,
+				99CE19F123D0513200EAE994 /* 背景1.mp3 */,
+				99CE19FB23D08F6D00EAE994 /* 背景2.mp3 */,
+				99CE19EF23D04C0000EAE994 /* 吃金币.mp3 */,
+				99CE19ED23D045CF00EAE994 /* 碰到木乃伊.mp3 */,
+				99CE19F623D08DDF00EAE994 /* 失败.mp3 */,
+				99CE19F523D08DDF00EAE994 /* 胜利.mp3 */,
+				99CE19F323D08DDF00EAE994 /* 选择界面.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		99CE19DB23CF484500EAE994 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				99CE19C023CF416400EAE994 /* Main.storyboard */,
+				99CE19C523CF416600EAE994 /* LaunchScreen.storyboard */,
+				99CE19C323CF416600EAE994 /* Assets.xcassets */,
+				99CE19C823CF416600EAE994 /* Info.plist */,
+				99CE1A1123D1ED7800EAE994 /* InfoPlist.strings */,
+				99CE1A0B23D1A2F100EAE994 /* Localizable.strings */,
+				99CE19D023CF484000EAE994 /* Sounds */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		99CE19DC23CF489E00EAE994 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				99CE19CE23CF42E600EAE994 /* MainMenuScene.swift */,
+				99CE19BC23CF416400EAE994 /* GameScene.swift */,
+				99CE19FD23D0A8F500EAE994 /* GameOverScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		99CE19DD23CF48AB00EAE994 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99CE19BE23CF416400EAE994 /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99CE19DE23CF48C200EAE994 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				99CE1A0523D14E3F00EAE994 /* Constants.swift */,
+				99CE19FF23D0B55200EAE994 /* Color+Extension.swift */,
+				99CE19DF23CF48FB00EAE994 /* Music.swift */,
+				99CE19E123CF563F00EAE994 /* Math.swift */,
+				9964CBC9260CD0EE00228C22 /* Ads.swift */,
+				9922936523D2F6D90041EAF0 /* StoreReviewHelper.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F9FFC8CF37C050930FA20BE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54328766F2519FB6C3506141 /* Pods_Crazy_Pyramid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99CE19B223CF416400EAE994 /* Crazy Pyramid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CE19CB23CF416600EAE994 /* Build configuration list for PBXNativeTarget "Crazy Pyramid" */;
+			buildPhases = (
+				7D704FFB922A0460B8611EFC /* [CP] Check Pods Manifest.lock */,
+				99CE19AF23CF416400EAE994 /* Sources */,
+				99CE19B023CF416400EAE994 /* Frameworks */,
+				99CE19B123CF416400EAE994 /* Resources */,
+				A5AD8CD28EFFCFD48DF1477F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				999237022E32F49F00AE3AC9 /* Config */,
+			);
+			name = "Crazy Pyramid";
+			productName = "Crazy Pyramid";
+			productReference = 99CE19B323CF416400EAE994 /* Crazy Pyramid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99CE19AB23CF416400EAE994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Banghua Zhao";
+				TargetAttributes = {
+					99CE19B223CF416400EAE994 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 99CE19AE23CF416400EAE994 /* Build configuration list for PBXProject "Crazy Pyramid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 99CE19AA23CF416400EAE994;
+			productRefGroup = 99CE19B423CF416400EAE994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99CE19B223CF416400EAE994 /* Crazy Pyramid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99CE19B123CF416400EAE994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998D56D723E95D2A00BA418A /* 按键.mp3 in Resources */,
+				99CE19FA23D08DDF00EAE994 /* 失败.mp3 in Resources */,
+				99CE1A0F23D1ED7800EAE994 /* InfoPlist.strings in Resources */,
+				99CE19F023D04C0000EAE994 /* 吃金币.mp3 in Resources */,
+				99CE1A0923D1A2F100EAE994 /* Localizable.strings in Resources */,
+				99CE19C223CF416400EAE994 /* Main.storyboard in Resources */,
+				99CE19EE23D045CF00EAE994 /* 碰到木乃伊.mp3 in Resources */,
+				99CE19F223D0513200EAE994 /* 背景1.mp3 in Resources */,
+				99CE19F923D08DDF00EAE994 /* 胜利.mp3 in Resources */,
+				99CE19C423CF416600EAE994 /* Assets.xcassets in Resources */,
+				99CE19FC23D08F6D00EAE994 /* 背景2.mp3 in Resources */,
+				99CE19F723D08DDF00EAE994 /* 选择界面.mp3 in Resources */,
+				99CE19C723CF416600EAE994 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D704FFB922A0460B8611EFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crazy Pyramid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AD8CD28EFFCFD48DF1477F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crazy Pyramid/Pods-Crazy Pyramid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crazy Pyramid/Pods-Crazy Pyramid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crazy Pyramid/Pods-Crazy Pyramid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99CE19AF23CF416400EAE994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9964CBCA260CD0EE00228C22 /* Ads.swift in Sources */,
+				998D56DA23E9851A00BA418A /* Level.swift in Sources */,
+				99CE19BD23CF416400EAE994 /* GameScene.swift in Sources */,
+				99CE19BF23CF416400EAE994 /* GameViewController.swift in Sources */,
+				99CE19FE23D0A8F500EAE994 /* GameOverScene.swift in Sources */,
+				9922936623D2F6D90041EAF0 /* StoreReviewHelper.swift in Sources */,
+				99CE19E023CF48FB00EAE994 /* Music.swift in Sources */,
+				99CE19CF23CF42E600EAE994 /* MainMenuScene.swift in Sources */,
+				99CE19B723CF416400EAE994 /* AppDelegate.swift in Sources */,
+				99CE19E223CF563F00EAE994 /* Math.swift in Sources */,
+				99CE1A0023D0B55200EAE994 /* Color+Extension.swift in Sources */,
+				99CC562423DAA67D00079D1D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99CE19C023CF416400EAE994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CE19C123CF416400EAE994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99CE19C523CF416600EAE994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CE19C623CF416600EAE994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		99CE1A0B23D1A2F100EAE994 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CE1A0A23D1A2F100EAE994 /* en */,
+				99CE1A0C23D1A30800EAE994 /* zh-Hans */,
+				9964CBCC260CD16000228C22 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		99CE1A1123D1ED7800EAE994 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CE1A1023D1ED7800EAE994 /* en */,
+				99CE1A1223D1ED7900EAE994 /* zh-Hans */,
+				996FDC00248C785F0053BEFD /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99CE19C923CF416600EAE994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 999237022E32F49F00AE3AC9 /* Config */;
+			baseConfigurationReferenceRelativePath = Debug.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99CE19CA23CF416600EAE994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 999237022E32F49F00AE3AC9 /* Config */;
+			baseConfigurationReferenceRelativePath = Release.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99CE19CC23CF416600EAE994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7949C88402439AFE6270CE6 /* Pods-Crazy Pyramid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2.70;
+				DEVELOPMENT_TEAM = F694X76A5X;
+				INFOPLIST_FILE = "Crazy Pyramid/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Banghua-Zhao.Crazy-Pyramid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99CE19CD23CF416600EAE994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3587E69582CFB64925377A /* Pods-Crazy Pyramid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.2.70;
+				DEVELOPMENT_TEAM = F694X76A5X;
+				INFOPLIST_FILE = "Crazy Pyramid/Supporting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Banghua-Zhao.Crazy-Pyramid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99CE19AE23CF416400EAE994 /* Build configuration list for PBXProject "Crazy Pyramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CE19C923CF416600EAE994 /* Debug */,
+				99CE19CA23CF416600EAE994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CE19CB23CF416600EAE994 /* Build configuration list for PBXNativeTarget "Crazy Pyramid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CE19CC23CF416600EAE994 /* Debug */,
+				99CE19CD23CF416600EAE994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99CE19AB23CF416400EAE994 /* Project object */;
+}
