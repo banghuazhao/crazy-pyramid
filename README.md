@@ -1,3 +1,5 @@
+[![Download on the App Store](https://img.shields.io/badge/App%20Store-Download-blue?logo=apple)](https://apps.apple.com/us/app/crazy-pyramid-treasure-hunt/id1495037584)
+
 # Crazy Pyramid
 
 Welcome to **Crazy Pyramid** – a fast-paced, action-packed mobile game where you play as an adventurous archaeologist exploring mysterious pyramids, dodging mummies, snakes, and beetles, and collecting treasures!
@@ -7,6 +9,8 @@ Welcome to **Crazy Pyramid** – a fast-paced, action-packed mobile game where y
 | Main Menu                | Gameplay                  |
 |-------------------------|--------------------------|
 | ![Main Menu](screenshots/1.png) | ![Gameplay](screenshots/2.png) |
+
+**Crazy Pyramid is available on the [App Store](https://apps.apple.com/us/app/crazy-pyramid-treasure-hunt/id1495037584)!**
 
 
 ## 🏆 Game Features
